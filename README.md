@@ -2,7 +2,7 @@
 
 <br />
 <h2>Description</h2>
-Text
+I start by building a simple network with a router, two switches, and six PCs. From the router I create two networks for the two interfaces that connects to the two switches and three PCs attached to each switch. I started small and statically assigned IP addresses and the default gateway on the endpoints and had cross network communication. From there, I added a dedicated DHCP server with two IP address pools to lease out IP addresses for the given networks. During a troubleshooting phase, I resolved an issue with the 192.168.10.1 network being given IP addresses but but the default gateway to the three endpoints. It was due to the default server pool in the DHCP server within Packet Tracer overwriting the pool that I had configured. I once again had cross network connectivity. I then added two more devices to the network, a printer connected to the 192.168.20.1 network in which I statically an IP outside the previously sefined IP pool, and a wireless laptop. For the laptop, I had to change the network interface card to a wireless one, add a wireless access point, create a network and connect the laptop to the wifi network, to obtain an IP address from the dedicated DHCP server over wifi. This project was a great refresher in Cisco Packet Tracer and allows me to brush up on my networking principles and network architecture. I plan to go into more advanced topics such a creating a segmented network with VLANs in the future.
 
 <h2>Utilities Used</h2>
 
@@ -11,7 +11,6 @@ Text
 <h2>Lab Overview:</h2>
 
 <p align="center">
-Intro Text<br />
  <br />
  <br />
 I started the project by first making a simple network. I had one core router connected to two switches that each connected to three PCs. Within the router's command line, I went into global configuration mode and assgined each interface a different IP Address to have seperate networks and make it so the interfaces would stay enabled with no shutdown.<br/>
