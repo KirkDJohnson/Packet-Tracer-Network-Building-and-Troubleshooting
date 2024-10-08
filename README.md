@@ -1,4 +1,4 @@
-<h1>Network Architecture and Troubleshooting with Packet Tracer (IN PROGRESS)</h1>
+<h1>Network Architecture and Troubleshooting with Packet Tracer </h1>
 
 <br />
 <h2>Description</h2>
