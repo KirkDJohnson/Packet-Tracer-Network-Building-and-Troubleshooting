@@ -18,7 +18,7 @@ I started the project by first making a simple network. I had one core router co
 <img src="https://github.com/user-attachments/assets/79e5e5a5-ba74-48c4-8ae2-3be73dfa2558" alt="Packet Tracer"/>
 <br />
 <br />
-I then statically assigned IP addresses to the endpoints. For those on the left side, with the interface g0/0 that was set to 192.168.10.1, and put in the that netowrk and those on the right I put in the 192.168.20.1 network. With the addresses assigned I was successfully able to ping accross the networks. <br/>
+I then statically assigned IP addresses to the endpoints. For those on the left side, with the interface g0/0 that was set to 192.168.10.1, that was their default gateway and they were in the same subnet. The same applies to the PCs on the right side, but they were in the 192.168.20.1 subnet. With the addresses assigned I was successfully able to ping accross the networks. <br/>
 <img src="https://github.com/user-attachments/assets/2dcd0710-a549-49b4-8331-ea3ced0d290d" alt="Packet Tracer"/>
  <img src="https://github.com/user-attachments/assets/fdf1b514-66b5-41de-9404-d87c801277eb" alt="Packet Tracer"/>
 <br />
